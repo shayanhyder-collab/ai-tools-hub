@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Tools Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>AI<span>Tools</span></h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#tools">Explore Tools</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <p>YOUR AI DISCOVERY PLATFORM</p>
+
+            <h2>Discover the Best AI Tools</h2>
+
+            <p>
+                Find AI tools for writing, image creation,
+                coding and productivity.
+            </p>
+
+            <a href="#tools" class="explore-btn">
+                Explore Tools
+            </a>
+        </section>
+
+        <section id="tools" class="tools-section">
+            <h2>Explore AI Tools</h2>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search AI tools..."
+            >
+            
+<div class="categories">
+    <button class="category-btn active" data-category="All">All</button>
+    <button class="category-btn" data-category="Writing">Writing</button>
+    <button class="category-btn" data-category="Image">Image</button>
+    <button class="category-btn" data-category="Coding">Coding</button>
+    <button class="category-btn" data-category="Productivity">Productivity</button>
+</div>
+
+
+            <div id="toolsGrid" class="tools-grid"></div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>About Us</h2>
+            <p>Your place to discover useful AI tools.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>AI Tools Hub | Built with HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
